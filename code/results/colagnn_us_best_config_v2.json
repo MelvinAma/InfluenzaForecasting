@@ -1,0 +1,16 @@
+{
+  "best_val_loss": 0.03443477302789688,
+  "best_epoch": 38,
+  "config": {
+    "lr": 0.00748492602399792,
+    "k": 20,
+    "hidsp": 32,
+    "n_hidden": 16,
+    "n_layer": 1,
+    "dropout": 0.3096700709615003,
+    "weight_decay": 1.2042388726958198e-05,
+    "batch_size": 32,
+    "rnn_model": "GRU",
+    "bi": false
+  }
+}

@@ -1,0 +1,7 @@
+Model,RMSE_gl,PCC_gl,Seeds,Source
+EpiGNN (base),200.5 ± 11.1,0.894 ± 0.013,11,paper defaults
+EpiGNN (tuned),204.1 ± 11.8,0.891 ± 0.014,11,HPO best config
+EpiGNN (paper),186,0.907,5,Xie et al. 2022
+ColaGNN (base),148.4 ± 10.8,0.953 ± 0.005,11,paper defaults
+ColaGNN (tuned),146.0 ± 6.2,0.953 ± 0.003,11,HPO best config
+ColaGNN (paper),136,0.933 (lt=3),10,Deng et al. 2020

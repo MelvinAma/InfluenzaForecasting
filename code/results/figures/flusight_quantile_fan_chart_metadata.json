@@ -1,0 +1,80 @@
+{
+  "mode": "quad",
+  "primary_model": "MEx-ColaGNN",
+  "secondary_model": "MEx-EpiGNN",
+  "overlay_model": "FluSight-ensemble",
+  "examples": [
+    {
+      "bucket": "Early season, easier",
+      "location_fips": "18",
+      "location_abbr": "IN",
+      "location_name": "Indiana",
+      "reference_date": "2025-01-04",
+      "target_end_dates": [
+        "2025-01-11",
+        "2025-01-18",
+        "2025-01-25"
+      ],
+      "model_wis": {
+        "MEx-ColaGNN": 91.68565217391306,
+        "MEx-EpiGNN": 107.0931884057971
+      },
+      "overlay_wis": 83.54855072463768,
+      "realized_total": 1853.0
+    },
+    {
+      "bucket": "Early season, harder",
+      "location_fips": "37",
+      "location_abbr": "NC",
+      "location_name": "North Carolina",
+      "reference_date": "2024-12-21",
+      "target_end_dates": [
+        "2024-12-28",
+        "2025-01-04",
+        "2025-01-11"
+      ],
+      "model_wis": {
+        "MEx-ColaGNN": 430.60884057971026,
+        "MEx-EpiGNN": 459.7268115942029
+      },
+      "overlay_wis": 397.4850724637681,
+      "realized_total": 2386.0
+    },
+    {
+      "bucket": "Late season, easier",
+      "location_fips": "01",
+      "location_abbr": "AL",
+      "location_name": "Alabama",
+      "reference_date": "2025-03-08",
+      "target_end_dates": [
+        "2025-03-15",
+        "2025-03-22",
+        "2025-03-29"
+      ],
+      "model_wis": {
+        "MEx-ColaGNN": 56.10144927536231,
+        "MEx-EpiGNN": 66.15898550724637
+      },
+      "overlay_wis": 26.0595652173913,
+      "realized_total": 633.0
+    },
+    {
+      "bucket": "Late season, harder",
+      "location_fips": "19",
+      "location_abbr": "IA",
+      "location_name": "Iowa",
+      "reference_date": "2025-02-01",
+      "target_end_dates": [
+        "2025-02-08",
+        "2025-02-15",
+        "2025-02-22"
+      ],
+      "model_wis": {
+        "MEx-ColaGNN": 274.94724637681156,
+        "MEx-EpiGNN": 250.70173913043473
+      },
+      "overlay_wis": 201.02695652173915,
+      "realized_total": 1527.0
+    }
+  ]
+}

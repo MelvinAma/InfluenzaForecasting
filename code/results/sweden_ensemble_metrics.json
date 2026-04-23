@@ -1,0 +1,74 @@
+{
+  "EpiGNN_base": {
+    "ensemble": {
+      "mae_mean": 9.095620155334473,
+      "rmse_mean": 13.8609619140625,
+      "mape_mean": 60.6717643737793,
+      "pcc_mean": 0.9218423962593079,
+      "rmse_global": 18.838783264160156,
+      "pcc_global": 0.9716319441795349
+    },
+    "loo_std": {
+      "mae_std": 0.07567281860375773,
+      "rmse_std": 0.08547860384117441,
+      "pcc_std": 0.00039671092072783023
+    },
+    "model": "EpiGNN",
+    "variant": "base",
+    "n_seeds": 11
+  },
+  "ColaGNN_base": {
+    "ensemble": {
+      "mae_mean": 8.199986457824707,
+      "rmse_mean": 12.724215507507324,
+      "mape_mean": 47.829715728759766,
+      "pcc_mean": 0.917689323425293,
+      "rmse_global": 16.79450035095215,
+      "pcc_global": 0.975580096244812
+    },
+    "loo_std": {
+      "mae_std": 0.043139731066878094,
+      "rmse_std": 0.06660893818125943,
+      "pcc_std": 0.0004919354892077099
+    },
+    "model": "ColaGNN",
+    "variant": "base",
+    "n_seeds": 11
+  },
+  "EpiGNN_tuned": {
+    "ensemble": {
+      "mae_mean": 8.49941349029541,
+      "rmse_mean": 13.104084968566895,
+      "mape_mean": 52.5119743347168,
+      "pcc_mean": 0.9145060777664185,
+      "rmse_global": 17.23960304260254,
+      "pcc_global": 0.9752171635627747
+    },
+    "loo_std": {
+      "mae_std": 0.02764539244201749,
+      "rmse_std": 0.05249340428001594,
+      "pcc_std": 0.00034911448020619385
+    },
+    "model": "EpiGNN",
+    "variant": "tuned",
+    "n_seeds": 11
+  },
+  "ColaGNN_tuned": {
+    "ensemble": {
+      "mae_mean": 7.957073211669922,
+      "rmse_mean": 12.41687297821045,
+      "mape_mean": 46.99114227294922,
+      "pcc_mean": 0.9232918620109558,
+      "rmse_global": 16.29851722717285,
+      "pcc_global": 0.9764076471328735
+    },
+    "loo_std": {
+      "mae_std": 0.0351421792474435,
+      "rmse_std": 0.06696450629016266,
+      "pcc_std": 0.00036146753432982293
+    },
+    "model": "ColaGNN",
+    "variant": "tuned",
+    "n_seeds": 11
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "epignn_s42": {
+    "mae_mean": 81.70086288452148,
+    "mae_std": 18.855089284460632,
+    "rmse_mean": 117.3319206237793,
+    "rmse_std": 46.111382038002425,
+    "mape_mean": 247.12799072265625,
+    "mape_std": 6.821504520714889,
+    "peak_intensity_mae": 193.918701171875,
+    "peak_week_mae": 1.4607843137254901,
+    "onset_week_mae": 1.0,
+    "n_folds": 2
+  },
+  "colagnn_s42": {
+    "mae_mean": 51.2339448928833,
+    "mae_std": 32.54851674630266,
+    "rmse_mean": 84.64911270141602,
+    "rmse_std": 57.50112480039999,
+    "mape_mean": 39.50899314880371,
+    "mape_std": 2.336230158689784,
+    "peak_intensity_mae": 101.54862976074219,
+    "peak_week_mae": 1.0294117647058822,
+    "onset_week_mae": 0.75,
+    "n_folds": 2
+  },
+  "epignn_s123": {
+    "mae_mean": 56.04923057556152,
+    "mae_std": 28.44200700812568,
+    "rmse_mean": 87.23163795471191,
+    "rmse_std": 49.4652434707155,
+    "mape_mean": 72.81981468200684,
+    "mape_std": 15.778078024148462,
+    "peak_intensity_mae": 48.844200134277344,
+    "peak_week_mae": 1.0294117647058822,
+    "onset_week_mae": 0.7272727272727273,
+    "n_folds": 2
+  },
+  "colagnn_s123": {
+    "mae_mean": 83.31212615966797,
+    "mae_std": 34.48535257890999,
+    "rmse_mean": 125.29300308227539,
+    "rmse_std": 61.961866324843875,
+    "mape_mean": 96.69611358642578,
+    "mape_std": 29.538518300773234,
+    "peak_intensity_mae": 173.9676055908203,
+    "peak_week_mae": 1.8431372549019607,
+    "onset_week_mae": 2.3333333333333335,
+    "n_folds": 2
+  },
+  "epignn_s456": {
+    "mae_mean": 158.5017204284668,
+    "mae_std": 140.21152454448332,
+    "rmse_mean": 230.3548583984375,
+    "rmse_std": 215.86493150105508,
+    "mape_mean": 277.5383987426758,
+    "mape_std": 199.44691461090534,
+    "peak_intensity_mae": 402.5664367675781,
+    "peak_week_mae": 2.7058823529411766,
+    "onset_week_mae": 1.5,
+    "n_folds": 2
+  },
+  "colagnn_s456": {
+    "mae_mean": 65.15603256225586,
+    "mae_std": 37.194398249486895,
+    "rmse_mean": 104.1432113647461,
+    "rmse_std": 72.8280386815031,
+    "mape_mean": 53.874460220336914,
+    "mape_std": 17.292683356625776,
+    "peak_intensity_mae": 170.3717498779297,
+    "peak_week_mae": 1.0098039215686274,
+    "onset_week_mae": 2.4285714285714284,
+    "n_folds": 2
+  },
+  "persistence": {
+    "mae_mean": 57.51099227569816,
+    "mae_std": 36.329238951656805,
+    "rmse_mean": 88.85917713496606,
+    "rmse_std": 57.28411600891992,
+    "mape_mean": 44.14325484827238,
+    "mape_std": 0.46739885564249484,
+    "peak_intensity_mae": 0.0,
+    "peak_week_mae": 1.0,
+    "onset_week_mae": null,
+    "n_folds": 2
+  },
+  "seasonal": {
+    "mae_mean": 167.29590017825313,
+    "mae_std": 48.13703988954554,
+    "rmse_mean": 258.8926161520287,
+    "rmse_std": 105.27292953546423,
+    "mape_mean": 148.79688783890884,
+    "mape_std": 51.31573562375471,
+    "peak_intensity_mae": 490.34313725490193,
+    "peak_week_mae": 4.401960784313726,
+    "onset_week_mae": null,
+    "n_folds": 2
+  }
+}

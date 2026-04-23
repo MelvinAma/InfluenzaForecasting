@@ -1,0 +1,19 @@
+{
+    "data_path": "Models/EpiGNN/data/state360.txt",
+    "adj_path": "Models/ColaGNN/data/state-adj.txt",
+    "window": 20,
+    "horizon": 2,
+    "split_mode": "ratio",
+    "train_ratio": 0.6,
+    "val_ratio": 0.2,
+    "n_layer": 1,
+    "n_hidden": 20,
+    "dropout": 0.2,
+    "k": 10,
+    "hidsp": 10,
+    "bi": false,
+    "rnn_model": "RNN",
+    "lr": 1e-3,
+    "weight_decay": 5e-4,
+    "batch_size": 32
+}

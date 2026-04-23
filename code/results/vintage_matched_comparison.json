@@ -1,0 +1,51 @@
+{
+  "models": {
+    "colagnn": {
+      "per_week_mean_rel_wis": 0.672,
+      "n_total": 69,
+      "per_horizon": {
+        "our_h2_vs_fs_h1": {
+          "mean_rel_wis": 0.77,
+          "mean_wis": 115.68,
+          "n_weeks": 24
+        },
+        "our_h3_vs_fs_h2": {
+          "mean_rel_wis": 0.633,
+          "mean_wis": 131.64,
+          "n_weeks": 23
+        },
+        "our_h4_vs_fs_h3": {
+          "mean_rel_wis": 0.605,
+          "mean_wis": 168.8,
+          "n_weeks": 22
+        }
+      }
+    },
+    "epignn": {
+      "per_week_mean_rel_wis": 0.755,
+      "n_total": 69,
+      "per_horizon": {
+        "our_h2_vs_fs_h1": {
+          "mean_rel_wis": 0.832,
+          "mean_wis": 120.0,
+          "n_weeks": 24
+        },
+        "our_h3_vs_fs_h2": {
+          "mean_rel_wis": 0.736,
+          "mean_wis": 152.48,
+          "n_weeks": 23
+        },
+        "our_h4_vs_fs_h3": {
+          "mean_rel_wis": 0.69,
+          "mean_wis": 189.0,
+          "n_weeks": 22
+        }
+      }
+    }
+  },
+  "training_data": "vintage_2024-11-30 (preliminary NHSN)",
+  "inference_data": "per-week hybrid (preliminary inputs + final targets)",
+  "ground_truth": "final (FluSight evaluation protocol)",
+  "n_seeds": 11,
+  "season": "2024/25"
+}

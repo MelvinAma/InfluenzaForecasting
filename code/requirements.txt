@@ -1,0 +1,31 @@
+# MEx Thesis: Influenza Forecasting with RayTune HPO
+# Target: KTH H100 JupyterHub (CUDA 12.x) and local Windows dev
+#
+# PyTorch install (not listed here, requires special index URL):
+#   GPU (H100/CUDA 12.1):
+#     pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#   GPU (H100/CUDA 12.4):
+#     pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+#   CPU only:
+#     pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+#
+# Install this file AFTER PyTorch:
+#   pip install -r requirements.txt
+#
+# Note: torch-geometric is NOT required. EpiGNN and ColaGNN use custom GCN layers.
+
+# pinned: numpy 2.x breaks scipy 1.10.1
+numpy==1.26.4
+scipy==1.10.1
+
+pandas==3.0.0
+matplotlib==3.7.1
+seaborn==0.13.2
+scikit-learn==1.5.2
+
+# hyperparameter optimization
+ray[tune]==2.54.0
+optuna==3.6.2
+
+# training visualization
+tensorboard==2.20.0

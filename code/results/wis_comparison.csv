@@ -1,0 +1,5 @@
+Model,WIS,WIS_std,Sharpness,Calibration,n_weeks,Source,Rel. WIS
+EpiGNN (ours),92.8,±89.65,29.33,63.47,24,post-hoc QR,0.656
+ColaGNN (ours),57.96,±24.85,32.86,25.1,24,post-hoc QR,0.467
+FluSight-ensemble,96.04,—,23.45,72.59,24,hub quantiles,0.727
+FluSight-baseline,136.13,—,11.07,125.05,24,hub quantiles,1.0

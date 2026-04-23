@@ -1,0 +1,23 @@
+{
+    "data_path": "Models/EpiGNN/data/state360.txt",
+    "adj_path": "Models/EpiGNN/data/state-adj-49.txt",
+    "window": 20,
+    "horizon": 5,
+    "split_mode": "ratio",
+    "train_ratio": 0.5,
+    "val_ratio": 0.2,
+    "n_layer": 1,
+    "n_hidden": 20,
+    "dropout": 0.2,
+    "k": 8,
+    "hidR": 64,
+    "hidA": 64,
+    "hidP": 1,
+    "hw": 0,
+    "n": 2,
+    "res": 0,
+    "s": 2,
+    "lr": 1e-3,
+    "weight_decay": 5e-4,
+    "batch_size": 128
+}

@@ -1,0 +1,14 @@
+{
+    "data_path": "src/data/state_flu_admissions.txt",
+    "adj_path": "src/data/state-adj-51.txt",
+    "date_index_path": "src/data/date_index.csv",
+    "date_format": "date",
+    "window": 20,
+    "horizon": 1,
+    "split_mode": "season",
+    "test_seasons": ["2024/25"],
+    "val_seasons": ["2023/24"],
+    "exclude_seasons": ["2020/21", "2025/26"],
+    "train_ratio": 0.6,
+    "val_ratio": 0.2
+}

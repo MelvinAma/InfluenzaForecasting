@@ -1,0 +1,27 @@
+{
+  "best_val_loss": 0.003205602537491359,
+  "best_epoch": 129,
+  "config": {
+    "lr": 0.00825998091319591,
+    "k": 16,
+    "hidP": 1,
+    "hidA": 32,
+    "hidR": 64,
+    "n_hidden": 64,
+    "n_layer": 1,
+    "n": 3,
+    "dropout": 0.32999013218062073,
+    "weight_decay": 3.9105920650681145e-05,
+    "batch_size": 32,
+    "res": 0,
+    "s": 3,
+    "hw": 1
+  },
+  "num_samples": 150,
+  "max_epochs": 500,
+  "patience": 20,
+  "horizon": 2,
+  "model_family": "epignn",
+  "_recovered_from": "notebooks/RESCUED.ipynb cell 6 Ray Tune output",
+  "_recovered_trial_id": "4ea024b2"
+}

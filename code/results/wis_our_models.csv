@@ -1,0 +1,5 @@
+Model,Dataset,WIS,Sharpness,Calibration
+EpiGNN (tuned),US,59.49,9.33,50.16
+EpiGNN (tuned),Sweden,5.13,1.49,3.64
+ColaGNN (tuned),US,64.95,8.72,56.23
+ColaGNN (tuned),Sweden,4.62,1.49,3.13

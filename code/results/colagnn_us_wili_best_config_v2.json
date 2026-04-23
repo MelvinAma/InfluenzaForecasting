@@ -1,0 +1,16 @@
+{
+  "best_val_loss": 0.07657884322106838,
+  "best_epoch": 61,
+  "config": {
+    "lr": 0.0038011005830528226,
+    "k": 10,
+    "hidsp": 64,
+    "n_hidden": 16,
+    "n_layer": 2,
+    "dropout": 0.1367395258894705,
+    "weight_decay": 1.0939504675255348e-05,
+    "batch_size": 16,
+    "rnn_model": "LSTM",
+    "bi": false
+  }
+}

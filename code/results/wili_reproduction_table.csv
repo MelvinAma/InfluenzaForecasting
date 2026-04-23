@@ -1,0 +1,3 @@
+Model,Horizon,Split,Seeds,Reproduced RMSE,Paper RMSE,RMSE Diff,Reproduced PCC,Paper PCC,PCC Diff
+EpiGNN,5,50/20/30,11,200.5 Â± 11.1,186,+7.8%,0.894 Â± 0.013,0.907,-1.4%
+ColaGNN,2,60/20/20,11,148.4 Â± 10.8,136,+9.1%,0.953 Â± 0.005,0.933 (lt=3),+2.1%

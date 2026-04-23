@@ -1,0 +1,160 @@
+{
+  "epignn": {
+    "rmse_global_mean": 200.5,
+    "rmse_global_std": 11.1,
+    "pcc_global_mean": 0.894,
+    "pcc_global_std": 0.013,
+    "seeds": [
+      42,
+      123,
+      456,
+      777,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "per_seed": [
+      {
+        "seed": 42,
+        "rmse_global": 186.9,
+        "pcc_global": 0.909
+      },
+      {
+        "seed": 123,
+        "rmse_global": 192.5,
+        "pcc_global": 0.902
+      },
+      {
+        "seed": 456,
+        "rmse_global": 192.8,
+        "pcc_global": 0.902
+      },
+      {
+        "seed": 777,
+        "rmse_global": 194.1,
+        "pcc_global": 0.901
+      },
+      {
+        "seed": 1,
+        "rmse_global": 204.8,
+        "pcc_global": 0.888
+      },
+      {
+        "seed": 2,
+        "rmse_global": 200.2,
+        "pcc_global": 0.895
+      },
+      {
+        "seed": 3,
+        "rmse_global": 217.5,
+        "pcc_global": 0.874
+      },
+      {
+        "seed": 4,
+        "rmse_global": 206.8,
+        "pcc_global": 0.893
+      },
+      {
+        "seed": 5,
+        "rmse_global": 195.0,
+        "pcc_global": 0.901
+      },
+      {
+        "seed": 6,
+        "rmse_global": 221.9,
+        "pcc_global": 0.867
+      },
+      {
+        "seed": 7,
+        "rmse_global": 192.9,
+        "pcc_global": 0.902
+      }
+    ],
+    "n_regions": 49,
+    "source": "notebooks/train_wili.ipynb stored outputs (global metrics only)",
+    "provenance": "mean/std computed from full-precision per-seed values in notebook; per_seed array here is rounded to 1dp for display"
+  },
+  "colagnn": {
+    "rmse_global_mean": 148.4,
+    "rmse_global_std": 10.8,
+    "pcc_global_mean": 0.953,
+    "pcc_global_std": 0.005,
+    "seeds": [
+      42,
+      123,
+      456,
+      777,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "per_seed": [
+      {
+        "seed": 42,
+        "rmse_global": 143.2,
+        "pcc_global": 0.957
+      },
+      {
+        "seed": 123,
+        "rmse_global": 138.5,
+        "pcc_global": 0.956
+      },
+      {
+        "seed": 456,
+        "rmse_global": 174.7,
+        "pcc_global": 0.944
+      },
+      {
+        "seed": 777,
+        "rmse_global": 151.0,
+        "pcc_global": 0.951
+      },
+      {
+        "seed": 1,
+        "rmse_global": 139.8,
+        "pcc_global": 0.959
+      },
+      {
+        "seed": 2,
+        "rmse_global": 158.8,
+        "pcc_global": 0.944
+      },
+      {
+        "seed": 3,
+        "rmse_global": 154.1,
+        "pcc_global": 0.951
+      },
+      {
+        "seed": 4,
+        "rmse_global": 139.9,
+        "pcc_global": 0.955
+      },
+      {
+        "seed": 5,
+        "rmse_global": 143.7,
+        "pcc_global": 0.955
+      },
+      {
+        "seed": 6,
+        "rmse_global": 142.9,
+        "pcc_global": 0.957
+      },
+      {
+        "seed": 7,
+        "rmse_global": 145.2,
+        "pcc_global": 0.955
+      }
+    ],
+    "n_regions": 49,
+    "source": "notebooks/train_wili.ipynb stored outputs (global metrics only)",
+    "provenance": "mean/std computed from full-precision per-seed values in notebook; per_seed array here is rounded to 1dp for display"
+  }
+}
